@@ -25,3 +25,12 @@ Step 7 python manage.py createsuperuser
     it will ask to bypass password validation say yes 
 
 Step 8 create a file models.py inside project drictory 
+
+
+
+Creating model
+
+1. Goto settings.py, look for INSTALLED_APPS in this add the project drinks
+2. python manage.py makemigrations drinks
+3. python manage.py //will apply all migrations 
+4. create a file in project directory admin.py
