@@ -34,3 +34,13 @@ Creating model
 2. python manage.py makemigrations drinks
 3. python manage.py //will apply all migrations 
 4. create a file in project directory admin.py
+
+
+
+Start Rest framework 
+
+1. Goto Settings.py, goto installed_apps and write 'rest_framework', 
+2. Create a file serializers.py in project directory // this will convert a python object into a JSON object 
+
+
+
