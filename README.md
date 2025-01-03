@@ -41,6 +41,7 @@ Start Rest framework
 
 1. Goto Settings.py, goto installed_apps and write 'rest_framework', 
 2. Create a file serializers.py in project directory // this will convert a python object into a JSON object 
+3. cretae views.py in project directory to create endpoints 
 
 
 
